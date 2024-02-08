@@ -40,7 +40,7 @@ int main()
     while(t--){
         int a, b;
         scanf("%d %d", &a, &b);
-        int ans = prefixSumPhi[b] - prefixSumPhi[a - 1];
+        ull ans = prefixSumPhi[b] - prefixSumPhi[a - 1];
         printf("Case %d: %llu\n", cas++, ans);
     }
 
